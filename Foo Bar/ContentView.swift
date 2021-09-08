@@ -40,6 +40,7 @@ struct ContentView: View {
             }
             .onLongPressGesture {
                 increment = 0
+                display = "0"
                 color = Color.black
             }
         }
